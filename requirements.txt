@@ -1,0 +1,5 @@
+watchdog
+ollama
+pymupdf
+sentence-transformers
+chromadb

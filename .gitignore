@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+
+logs.txt
+reports.jsonl
+data/chroma/
+
+.agents/
+.codex/
