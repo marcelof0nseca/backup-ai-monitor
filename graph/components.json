@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "id": "backup-api",
+      "type": "Service",
+      "name": "Backup API",
+      "aliases": ["backup-api", "backup service", "servico de backup"]
+    },
+    {
+      "id": "postgres-main",
+      "type": "Database",
+      "name": "PostgreSQL Principal",
+      "aliases": ["postgres", "database", "banco de dados"]
+    }
+  ],
+  "relations": [
+    {
+      "from": "backup-api",
+      "to": "postgres-main",
+      "type": "DEPENDS_ON",
+      "description": "Backup API depende do banco principal para registrar operacoes."
+    }
+  ]
+}
